@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connection_channel_name">Motorcycle connection</string>
+    <string name="connection_notification_title">TurkMax</string>
+    <string name="connection_notification_text">Motorcycle connection active</string>
+</resources>

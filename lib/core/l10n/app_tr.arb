@@ -1,0 +1,196 @@
+{
+  "@@locale": "tr",
+  "appTitle": "TurkMax",
+  "homeCockpitPreview": "TFT önizleme (480×234)",
+  "homeConnectionTitle": "Motosiklet bağlantısı",
+  "homeDiagnostics": "Tanılama",
+  "homeSettings": "Ayarlar",
+  "demoBadge": "DEMO",
+  "demoDataNotice": "Gösterilen rota, bildirim ve müzik bilgileri demo verisidir.",
+  "syntheticMapLabel": "SENTETİK HARİTA",
+  "connectionDisconnected": "Bağlı değil",
+  "connectionConnecting": "Bağlanıyor",
+  "connectionAuthenticating": "Doğrulanıyor",
+  "connectionReady": "Hazır",
+  "connectionStreaming": "Yayın yapılıyor",
+  "connectionReconnecting": "Yeniden bağlanıyor",
+  "connectionFailed": "Bağlantı hatası",
+  "navIdle": "Rota yok",
+  "navArrived": "Varış noktasına ulaşıldı",
+  "navRerouting": "Rota yeniden hesaplanıyor",
+  "navEta": "Varış {time}",
+  "@navEta": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsEmpty": "Yeni bildirim yok",
+  "mediaEmpty": "Çalan medya yok",
+  "diagnosticsTitle": "Tanılama",
+  "diagnosticsPlatform": "Platform",
+  "diagnosticsNativeBridge": "Native köprü",
+  "diagnosticsNativeBridgeOk": "Çalışıyor",
+  "diagnosticsNativeBridgeUnavailable": "Kullanılamıyor",
+  "diagnosticsFrameTitle": "Sentetik kare testi",
+  "diagnosticsFrameCapture": "Kare üret",
+  "diagnosticsFrameInfo": "{width}×{height} · {bytes} bayt · {millis} ms",
+  "@diagnosticsFrameInfo": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      },
+      "bytes": {
+        "type": "int"
+      },
+      "millis": {
+        "type": "String"
+      }
+    }
+  },
+  "diagnosticsFrameError": "Kare üretilemedi",
+  "diagnosticsHardwareNotice": "Gerçek motosiklet üzerinde henüz hiçbir doğrulama yapılmadı.",
+  "settingsTitle": "Ayarlar",
+  "settingsAutoReconnect": "Otomatik yeniden bağlan",
+  "settingsAutoReconnectHint": "Bağlantı koptuğunda motosiklete yeniden bağlanmayı dener.",
+  "settingsAbout": "Hakkında",
+  "settingsAboutBody": "TurkMax, Yamaha Motor veya Google ile bağlantılı değildir.",
+  "navRouting": "Rota hesaplanıyor",
+  "mapUnavailable": "Harita hazır değil",
+  "searchHint": "Adres veya işletme adı",
+  "searchPrompt": "Varış noktasını yazın (en az 3 harf).",
+  "searchEmpty": "Sonuç bulunamadı.",
+  "searchFailed": "Arama yapılamadı. İnternet bağlantınızı kontrol edin.",
+  "navCardTitle": "Navigasyon",
+  "navWhereTo": "Nereye?",
+  "navStop": "Navigasyonu bitir",
+  "navRetry": "Tekrar dene",
+  "navPreparing": "Navigasyon hazırlanıyor…",
+  "navTo": "Hedef: {name}",
+  "@navTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "navRemaining": "{distance} · {duration}",
+  "@navRemaining": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "navSimulate": "Rotayı simüle et (geliştirici)",
+  "navSimulatedNotice": "Konum simüle ediliyor; gerçek sürüş değil.",
+  "navErrorTerms": "Navigasyonu kullanmak için Google kullanım koşullarını kabul etmelisiniz.",
+  "navErrorPermission": "Navigasyon için konum izni gerekli.",
+  "navErrorLocation": "Konumunuz belirlenemedi. Telefonun konum servisini (GPS) açıp tekrar deneyin.",
+  "navErrorNetwork": "İnternet bağlantısı yok veya rota servisi yanıt vermedi.",
+  "navErrorNoRoute": "Bu hedefe rota bulunamadı.",
+  "navErrorApiKey": "Harita servisi başlatılamadı. API anahtarı ve etkin API'ler kontrol edilmeli.",
+  "navErrorQuota": "Harita kullanım kotası doldu.",
+  "navErrorUnknown": "Navigasyon başlatılamadı.",
+  "demoDataNoticePartial": "Bildirim ve müzik bilgileri demo verisidir.",
+  "connectionDisconnect": "Bağlantıyı kes",
+  "connectionConnect": "Bağlan",
+  "connectionStartStreaming": "Yayını başlat",
+  "connectionStopStreaming": "Yayını durdur",
+  "connectionPairedDevices": "Eşleşmiş cihazlar",
+  "connectionRefresh": "Yenile",
+  "connectionNoDevices": "Eşleşmiş cihaz yok. Motosikleti önce telefonun Bluetooth ayarlarından eşleştirin.",
+  "connectionLikelyCcu": "Yamaha göstergesi olabilir",
+  "connectionFakeDeviceHint": "Motosiklet olmadan test (geliştirici)",
+  "connectionReceiverTitle": "Sahte göstergenin aldığı görüntü",
+  "connectionLastDevice": "Son bağlantı: {name}",
+  "@connectionLastDevice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionStats": "{fps} FPS · ACK {ackMs} ms · kalite {quality} · {kb} KB",
+  "@connectionStats": {
+    "placeholders": {
+      "fps": {
+        "type": "String"
+      },
+      "ackMs": {
+        "type": "String"
+      },
+      "quality": {
+        "type": "int"
+      },
+      "kb": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionFrameCounts": "{acked}/{sent} kare onaylandı · {timeouts} zaman aşımı",
+  "@connectionFrameCounts": {
+    "placeholders": {
+      "acked": {
+        "type": "int"
+      },
+      "sent": {
+        "type": "int"
+      },
+      "timeouts": {
+        "type": "int"
+      }
+    }
+  },
+  "connectionErrorConnect": "Bağlanılamadı. Kontağın açık ve motosikletin yakında olduğundan emin olun. Garmin StreetCross veya MyRide açıksa kapatın; bağlantıyı aynı anda yalnızca bir uygulama kullanabilir.",
+  "connectionErrorHandshakeTimeout": "Gösterge yanıt vermedi. Kontağı kapatıp açın ve tekrar deneyin.",
+  "connectionErrorHandshake": "Gösterge ile doğrulama tamamlanamadı.",
+  "connectionErrorLinkLost": "Bağlantı koptu.",
+  "connectionErrorPermission": "Bluetooth izni gerekli.",
+  "connectionErrorBluetoothOff": "Bluetooth kapalı. Açıp yenileyin.",
+  "connectionErrorNoBluetooth": "Bu cihazda Bluetooth yok.",
+  "connectionErrorUnknown": "Bağlantı hatası ({code}).",
+  "@connectionErrorUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "connectionUnverifiedNotice": "Gerçek motosiklet üzerinde henüz doğrulanmadı. Sonuçlar bağlantı günlüğüne kaydedilir.",
+  "streamSettingsTitle": "Yayın ayarları",
+  "streamSettingsHint": "Bir sonraki bağlantıda geçerli olur.",
+  "streamSettingsLocked": "Değiştirmek için önce bağlantıyı kesin.",
+  "streamSettingsSource": "Görüntü kaynağı",
+  "streamSettingsSourceCockpit": "Cockpit (harita)",
+  "streamSettingsSourceSynthetic": "Test karesi",
+  "streamSettingsCockpitNotice": "Harita arka planda çizilir; uygulama arka plandayken de güncellenir.",
+  "streamSettingsResolution": "Çözünürlük",
+  "streamSettingsAuto": "Otomatik",
+  "streamSettingsQuality": "JPEG kalitesi",
+  "streamSettingsFps": "Azami FPS",
+  "streamSettingsNavStatus": "NAV_STATUS etkin gönder",
+  "streamSettingsNavStatusHint": "Gösterge görüntü çizmiyorsa deneyin.",
+  "powerTitle": "Pil optimizasyonu",
+  "powerUnrestricted": "Kısıtlama yok. Arka planda yayın için uygun.",
+  "powerRestricted": "Sistem uygulamayı arka planda durdurabilir. Ayarları açmak için dokunun ve TurkMax için kısıtlamayı kaldırın.",
+  "logTitle": "Bağlantı günlüğü",
+  "logCopy": "Kopyala",
+  "logCopied": "Günlük panoya kopyalandı",
+  "logEmpty": "Henüz kayıt yok.",
+  "logSavedTo": "Dosya: {path}",
+  "@logSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  }
+}
