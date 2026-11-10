@@ -11,6 +11,9 @@ yönlendirmesi, saat ve telefon pili.
 > Yamaha TFT display over Bluetooth, using an independent implementation of the NaviLite
 > protocol. Tested on a single motorcycle (XMAX 250 Tech MAX 2025), stationary. No prebuilt
 > binaries: you build it with your own Google Maps Platform key. Documentation is in Turkish.
+>
+> Read the story behind it:
+> [I Put My Own Navigation on My Yamaha's TFT Display](https://medium.com/@hsynbdr/i-put-my-own-navigation-on-my-yamahas-tft-display-8d868b60ac40).
 
 TurkMax bağımsız bir hobi projesidir. Yamaha Motor, Garmin, Google veya Apple ile hiçbir
 bağlantısı yoktur; bu şirketlerin adları yalnızca uyumluluğu tarif etmek için geçer.
@@ -62,6 +65,11 @@ Flutter cockpit durumu ─────────────────┼─
   [docs/NAVILITE_PROTOCOL.md](docs/NAVILITE_PROTOCOL.md).
 
 Mimari: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+## Yazı
+
+Projenin hikâyesi, ilk gerçek test ve karşılaşılan sorunlar (İngilizce):
+[I Put My Own Navigation on My Yamaha's TFT Display](https://medium.com/@hsynbdr/i-put-my-own-navigation-on-my-yamahas-tft-display-8d868b60ac40).
 
 ## Belgeler
 
