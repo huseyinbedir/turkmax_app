@@ -76,6 +76,12 @@ Mimari: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 - [docs/LICENSE_AND_COMPLIANCE.md](docs/LICENSE_AND_COMPLIANCE.md) — lisans ve uyumluluk notları
 - [CONTRIBUTING.md](CONTRIBUTING.md) — katkı kuralları
 
+## Destek
+
+Proje işinize yaradıysa bir kahve ısmarlayabilirsiniz:
+[GitHub Sponsors](https://github.com/sponsors/huseyinbedir). Başka bir modelde deneyip sonucu
+bildirmek de en az bunun kadar değerli.
+
 ## Teşekkür
 
 NaviLite protokolüne ilişkin bilgiler, [Pillion](https://github.com/alexandrevega/pillion)
